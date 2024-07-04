@@ -1,6 +1,6 @@
 # INDICT: Code Generation with Internal Dialogues of Critiques for Both Security and Helpfulness
 
-This is the official code for the paper "INDICT: Code Generation with Internal Dialogues of Critiques for Both Security and Helpfulness". 
+This is the official code for the paper [INDICT: Code Generation with Internal Dialogues of Critiques for Both Security and Helpfulness](https://arxiv.org/abs/2407.02518). 
 
 Authors: [Hung Le](https://scholar.google.com/citations?user=jnYI1UgAAAAJ&hl=en), [Yingbo Zhou](https://scholar.google.com/citations?user=H_6RQ7oAAAAJ&hl=en), [Caiming Xiong](http://cmxiong.com/), [Silvio Savarese](https://scholar.google.com/citations?user=ImpbxLsAAAAJ&hl=en), [Doyen Sahoo](https://scholar.google.com.sg/citations?user=A61jJD4AAAAJ&hl=en)
 
