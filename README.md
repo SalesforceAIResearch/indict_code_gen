@@ -62,7 +62,17 @@ The above script with generate output results to a default output path `<task>_<
 
 
 ## Citation   
-TBD
+```
+@misc{le2024indictcodegenerationinternal,
+      title={INDICT: Code Generation with Internal Dialogues of Critiques for Both Security and Helpfulness}, 
+      author={Hung Le and Yingbo Zhou and Caiming Xiong and Silvio Savarese and Doyen Sahoo},
+      year={2024},
+      eprint={2407.02518},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2407.02518}, 
+}
+```
 
 ## License 
 
