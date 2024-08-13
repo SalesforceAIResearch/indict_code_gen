@@ -102,7 +102,7 @@ def extract_tools(tool_selections):
         return []
     
 def format_step(step: str) -> str:
-    return step.strip('\n').strip().replace('\n', '')
+    return step.strip('\n').strip()
 
 def parse_action(string):
     if 'Search' in string:

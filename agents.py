@@ -264,7 +264,7 @@ class Agents:
             
             # STEP 2B: HELPFULESS CRITIC TOOL 
             curr_scratchpad = self.scratchpad 
-            query_tool_output_str, helpful_tool, helpful_tool_output = self.query_tools(safety_critic, 
+            query_tool_output_str, helpful_tool, helpful_tool_output = self.query_tools(helpful_critic, 
                                                                                             answer=answer,
                                                                                             tool_prompt=tool_prompt,
                                                                                             critic_tool=critic_tool)
