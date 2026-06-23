@@ -1,3 +1,4 @@
+import os
 from typing import Union, Literal
 import pdb 
 import logging
@@ -80,7 +81,9 @@ class OPENAI(LLM):
     def __init__(self, model_name: str, api_key: str, base_url=None) -> None:
         super().__init__(model_name, api_key)
         if base_url is not None:
-            self.client = openai.OpenAI(api_key=api_key, base_url=base_url) 
+            self.client = openai.OpenAI(api_key=api_key, base_url=base_url,
+    timeout=float(os.getenv("AI_TIMEOUT_SECONDS", "30")),
+) 
         else:
             self.client = openai.OpenAI(api_key=api_key)  
         self.name = model_name 
